@@ -1,6 +1,4 @@
 import { Identifiable } from '../models/identifiable';
-
-import { IBook } from '../models/IBook';
 import { Paginatable } from './paginatable';
 import { ToString } from '../models/toString';
 

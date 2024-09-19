@@ -1,4 +1,3 @@
-import { Identifiable } from '../models/identifiable';
 import { ToString } from '../models/toString';
 
 export interface Paginatable<TEntity extends ToString> {
