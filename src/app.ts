@@ -1,5 +1,3 @@
-import { Book } from './models/book';
-import { User } from './models/user';
 import { UserService } from './services/userService';
 import { LibraryService } from './services/libraryService';
 import { Pagination } from './utils/pagination';
@@ -311,5 +309,4 @@ class App {
 
 document.addEventListener('DOMContentLoaded', () => {
     new App();
-    console.log("app started");
 });
