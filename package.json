@@ -6,7 +6,8 @@
         "start": "webpack serve --open",
         "build": "webpack --mode production",
         "format": "prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "test": "echo \"testing husky\""
     },
     "repository": {
         "type": "git",
@@ -51,7 +52,7 @@
         }
     },
     "lint-staged": {
-        "src/**/*.ts": "eslint src",
+        "src/**/*.ts": "eslint",
         "src/**/*.[ts,html,css]": "prettier --write"
     }
 }
