@@ -5,6 +5,7 @@
     "scripts": {
         "start": "webpack serve --open",
         "build": "webpack --mode production",
+        "format": "prettier --write ."
     },
     "repository": {
         "type": "git",
