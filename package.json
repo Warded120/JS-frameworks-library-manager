@@ -6,7 +6,8 @@
         "start": "webpack serve --open",
         "build": "webpack --mode production",
         "format": "prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "test": "mocha --require ts-node/register --recursive test/**/*.ts"
     },
     "repository": {
         "type": "git",
