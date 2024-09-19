@@ -309,5 +309,4 @@ class App {
 
 document.addEventListener('DOMContentLoaded', () => {
     new App();
-    console.log("init app");
 });
