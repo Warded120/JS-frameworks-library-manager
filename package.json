@@ -6,8 +6,7 @@
         "start": "webpack serve --open",
         "build": "webpack --mode production",
         "format": "prettier --write .",
-        "prepare": "husky install",
-        "test": "echo \"testing husky\""
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
