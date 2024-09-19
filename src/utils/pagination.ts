@@ -124,7 +124,7 @@ export class Pagination {
             this.currentPage,
             this.itemsPerPage
         );
-        for (let item of items) {
+        for (const item of items) {
             const li = document.createElement('li');
             li.className = 'list-group-item d-flex justify-content-between';
             const text = document.createTextNode(item.toString());
